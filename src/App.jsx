@@ -18,7 +18,6 @@ function App() {
             <Route path="/Leadership" element={<Leadership />} />
             <Route path="/Track" element={<Track />} />
             <Route path="/Events" element={<Events />} />
-        
           </Routes>
           <Footer/>
         </BrowserRouter>
