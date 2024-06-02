@@ -15,10 +15,10 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="Leadership.jsx" element={<Leadership />} />
-            <Route path="Track.jsx" element={<Track />} />
-            <Route path="Events.jsx" element={<Events />} />
-            <Route path="Footer.jsx" element={<Footer />} />
+            <Route path="/Leadership.jsx" element={<Leadership />} />
+            <Route path="/Track.jsx" element={<Track />} />
+            <Route path="/Events.jsx" element={<Events />} />
+        
           </Routes>
           <Footer/>
         </BrowserRouter>
