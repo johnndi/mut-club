@@ -15,9 +15,9 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Leadership.jsx" element={<Leadership />} />
-            <Route path="/Track.jsx" element={<Track />} />
-            <Route path="/Events.jsx" element={<Events />} />
+            <Route path="/Leadership" element={<Leadership />} />
+            <Route path="/Track" element={<Track />} />
+            <Route path="/Events" element={<Events />} />
         
           </Routes>
           <Footer/>
