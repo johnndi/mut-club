@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./Header.css";
-import{link} from "react-router-dom";
+import { link } from "react-router-dom";
 const Header = () => {
   return (
     <section>
