@@ -1,0 +1,14 @@
+.footer{
+    background-color: aqua;
+    place-content: center;
+    display: grid;
+    margin-top: 3rem;
+    padding: 2rem 1rem
+
+}
+.footer p{
+    letter-spacing:1.6px;
+    color: white;
+    font-weight: 600;
+
+}

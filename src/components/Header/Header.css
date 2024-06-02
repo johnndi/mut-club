@@ -1,0 +1,67 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  height: 5rem;
+  
+}
+
+@media screen and (max-width: 53.4375em) {
+  .Header {
+    height: 10rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 22.625em) {
+  .Header {
+    height:13rem;
+  }
+}
+.title {
+  font-weight: 600;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 29.25em) {
+  .title {
+    align-content: center;
+  }
+}
+.HeaderNavList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  transition: all 0.3s;
+  overflow: hidden;
+  
+}
+@media screen and (max-width: 53.4375em) {
+  .HeaderNavList {
+    display: none;
+  }
+}
+.NavList-items {
+  display: flex;
+  justify-content: center;
+  list-style:none ;
+  gap: 3rem;
+  flex-wrap: wrap;
+  
+  
+}
+.navItem a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black;
+  display: inline-block;
+  padding: 1rem;
+  transition: all 0.5s;
+
+}
+.navItem a:hover{
+  background-color: antiquewhite;
+
+}
