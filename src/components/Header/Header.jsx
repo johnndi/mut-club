@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./Header.css";
-import { link } from "react-router-dom";
+import {link} from "react-router-dom";
 const Header = () => {
   return (
     <section>
@@ -15,7 +15,7 @@ const Header = () => {
               <link to="/Track">track</link>
             </li>
             <li className="navItem">
-              <link to="/Leadership">leadership</a>
+              <a link to="/Leadership">leadership</link>
             </li>
             <li className="navItem">
               <link to="/Events">event</link>
