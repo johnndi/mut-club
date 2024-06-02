@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./Header.css";
+import {Link} from "react-router-dom";
 const Header = () => {
   return (
     <section>
@@ -8,16 +9,16 @@ const Header = () => {
         <nav className="HeaderNavList">
           <ul className="NavList-items">
             <li className="navItem">
-              <a href="/">home</a>
+              <Link to="/">home</Link>
             <li className="navItem">
             </li>
-              <a href="/Track">track</a>
+              <Link to="/Track">track</Link>
             </li>
             <li className="navItem">
-              <a href="/Leadership">leadership</a>
+              <Link to="/Leadership">leadership</Link>
             </li>
             <li className="navItem">
-              <a href="/Events">event</a>
+              <Link to="/Events">event</Link>
             </li>
           </ul>
         </nav>
