@@ -3,20 +3,20 @@
   justify-content: space-between;
   align-items: center;
   background-color: aqua;
-  height: 5rem;
+  height: auto;
 
 }
 
 @media screen and (max-width: 53.4375em) {
   .Header {
-    height: 10rem;
+    height: auto;
     flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 22.625em) {
   .Header {
-    height:13rem;
+    height:auto;
   }
 }
 .title {
@@ -39,7 +39,8 @@
 }
 @media screen and (max-width: 53.4375em) {
   .HeaderNavList {
-    display: none;
+    flex-wrap:wrap;
+    align-items:center;
   }
 }
 .NavList-items {
