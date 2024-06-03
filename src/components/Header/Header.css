@@ -4,7 +4,7 @@
   align-items: center;
   background-color: aqua;
   height: 5rem;
-  
+  position:fixed;
 }
 
 @media screen and (max-width: 53.4375em) {
